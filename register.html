@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,11 @@
 <body>
     <div class="container">
         <h2>Registration Form</h2>
+<<<<<<< HEAD
+        <form id="registrationForm" action="/registeration.php" method="post" onsubmit="return validateForm()">
+=======
         <form id="registrationForm" action="register.php" method="post" onsubmit="return validateForm()">
+>>>>>>> 246873dce28bc27c1b10207b2937436f23f28f73
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             
@@ -20,12 +25,20 @@
             <label for="confirmPassword">Confirm Password:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
             
+<<<<<<< HEAD
+            <input type="button" value="Register" id="registerBtn" name="registerBtn" onclick="validateForm()">
+=======
             <input type="button" value="Register" id="registerBtn" disabled>
+>>>>>>> 246873dce28bc27c1b10207b2937436f23f28f73
         </form>
         <div id="error"></div>
         <div id="successMessage"></div>
     </div>
     
     <script src="register.js"></script>
+<<<<<<< HEAD
+    <!-- INSERT INTO `registration` (`sno`, `username`, `email`, `password`, `created_at`) VALUES ('1', 'shrutshere', 'shrutinaik2317@gmail.com', 'ShrutiNaik@2003', current_timestamp()); -->
+=======
+>>>>>>> 246873dce28bc27c1b10207b2937436f23f28f73
 </body>
 </html>
